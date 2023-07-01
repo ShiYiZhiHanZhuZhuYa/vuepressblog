@@ -23,8 +23,11 @@ highlights:
     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
     highlights:
-      - title: 拥有成熟的线上部署环境，由 Vue 助力渲染
+      - title: 成熟的线上部署环境，由 Vue 助力渲染
       - title: 在线上的文档，随时随地，只要有手机都可以查阅
+      - title: 详细的代码解释和优秀的代码规范。所有代码都易于理解
+      - title: 精美的 markdown 文档，极致的阅读享受
+      - title: 支持深浅色切换，快和博客说晚安吧
 
   - header: 优秀的阅览体验
     description: 成熟的代码风格，符合 PEP8 的语法规范
@@ -35,34 +38,24 @@ highlights:
       background-repeat: repeat
       background-size: initial
     features:
-      - title: PEP8 语法
+      - title: 标准的语法
         icon: clipboard-check
-        details: 符合官方规范，复制即为范例
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/others.html#link-check
+        details: 符合官方的 PEP8 规范，每一段代码都是范例
+        link: /about/我们的优势/标准的语法.html
 
-      - title: 详细的分类
+      - title: 整齐的分类
         icon: box-archive
-        details: 每一个知识点都有清晰的归类
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/container.html
+        details: 每一个知识点都有明确的归类地，让每个知识点都有个家
+        link: /about/我们的优势/整齐的分类.html
 
       - title: 简洁的代码
         icon: code
         details: 代码拥有充分的注释，帮助理解
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code-tabs.html
+        link: /about/我们的优势/简洁的代码.html
 
       - title: 清晰的目标
         icon: square-check
-        details: 拥有详细的当前学习内容的任务
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/tasklist.html
-
-      - title: 详细的总结
-        icon: square
-        details: 每个知识点结束都有小结
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/card.html
-
-      - title: 优秀的流程
-        icon: route
-        details: 流程图辅助理解算法
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/flowchart.html
+        details: 拥有详细的当前算法的任务，理解算法目标
+        link: /about/我们的优势/清晰的目标.html
 footer: AlphaBlog
 ---

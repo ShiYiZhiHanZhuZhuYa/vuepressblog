@@ -4,6 +4,7 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://alphablog.bolgk.eu.org/",
+  editLink: false,
 
   author: {
     name: "SmallPigPig",
@@ -51,6 +52,7 @@ export default hopeTheme({
 
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
+      tasklist: true,
       align: true,
       attrs: true,
       chart: true,
