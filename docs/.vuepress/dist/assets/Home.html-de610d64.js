@@ -1,0 +1,1 @@
+import{_ as t,o,c as a,b as e,d as c}from"./app-c5dfbe51.js";const n={},r=e("h1",{id:"python-教程首页",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#python-教程首页","aria-hidden":"true"},"#"),c(" Python 教程首页")],-1),s=[r];function _(d,h){return o(),a("div",null,s)}const l=t(n,[["render",_],["__file","Home.html.vue"]]);export{l as default};
