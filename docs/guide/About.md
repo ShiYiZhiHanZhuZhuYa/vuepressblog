@@ -7,8 +7,9 @@
 
 本项目基于 `Vuepress` 框架，是由 `Vue` 驱动的静态网页
 
-如果内容有误可以通过以下渠道反馈：
+::: tip 联系我们
 
 **邮箱：** 3552354372@qq.com
 
 **Github：** ShiYiZhiHanZhuZhuYa
+:::
