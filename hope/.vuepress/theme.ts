@@ -13,7 +13,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/logo.svg",
+  logo: "/logo.png",
 
   repo: "ShiYiZhiHanZhuZhuYa/vuepressblog",
 
@@ -91,6 +91,7 @@ export default hopeTheme({
       vPre: true,
       vuePlayground: true,
     },
+    
 
     // uncomment these if you want a pwa
     // pwa: {
