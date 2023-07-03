@@ -15,7 +15,7 @@ actions:
     type: primary
 
   - text: 关于
-    link: ./about/
+    link: ./about/关于文档/关于作者.md
 
 highlights:
   - header: 易于学习
