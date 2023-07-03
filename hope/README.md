@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: AlphaBlog
-heroImage: /os_arch.png
+heroImage: /logo.png
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
