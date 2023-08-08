@@ -1,9 +1,0 @@
-// place your custom styles here
-#app {
-    --detail-bg-color: #2195f393;
-    --detail-text-color: #ffffff;
-    
-    html[data-theme="dark"] & {
-        --detail-bg-color: #2195f363;
-    }
-  }
