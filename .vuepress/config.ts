@@ -20,22 +20,22 @@ export default defineUserConfig({
       '/docs/document/': [
           {
               text: '八年级',
-              children: ['/docs/document/八年级/8A.md', '/docs/document/八年级/8B.md']
+              children: ['/docs/document/八年级/8A.html', '/docs/document/八年级/8B.html']
           },
           {
               text: "九年级",
-              children: ['/docs/document/九年级/9A.md', '/docs/document/九年级/9B.md']
+              children: ['/docs/document/九年级/9A.html', '/docs/document/九年级/9B.html']
           }
       ],
 
       '/docs/about/': [
         {
           text: "关于文档",
-          children: ['/docs/about/关于文档/关于网站.md', '/docs/about/关于文档/关于作者.md']
+          children: ['/docs/about/关于文档/关于网站.html', '/docs/about/关于文档/关于作者.html']
         },
         {
           text: "文档优势",
-          children: ['/docs/about/文档优势/标准的语法.md', '/docs/about/文档优势/简洁的代码.md', '/docs/about/文档优势/清晰的目标.md', '/docs/about/文档优势/整齐的分类.md']
+          children: ['/docs/about/文档优势/标准的语法.html', '/docs/about/文档优势/简洁的代码.html', '/docs/about/文档优势/清晰的目标.html', '/docs/about/文档优势/整齐的分类.html']
         }
       ]
     },
