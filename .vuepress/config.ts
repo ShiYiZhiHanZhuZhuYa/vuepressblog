@@ -5,10 +5,9 @@ export default defineUserConfig({
   title: "Alpha Blog",
   description: "为所有人服务的学习网站",
   theme: recoTheme({
-    autoSetSeries: true,
     colormode: "dark",
     style: "@vuepress-reco/style-default",
-    logo: "/logo.png",
+    logo: "logo.png",
     author: "SmallPigPig",
     authorAvatar: "/head.png",
     docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
@@ -20,11 +19,11 @@ export default defineUserConfig({
       '/docs/document/': [
           {
               text: '八年级',
-              children: ['/docs/document/八年级/8A.html', '/docs/document/八年级/8B.html']
+              children: ['/docs/document/8/8A.html', '/docs/document/8/8B.html']
           },
           {
               text: "九年级",
-              children: ['/docs/document/九年级/9A.html', '/docs/document/九年级/9B.html']
+              children: ['/docs/document/9/9A.html', '/docs/document/9/9B.html']
           }
       ],
 
@@ -47,15 +46,15 @@ export default defineUserConfig({
           {
             text: '八年级',
             children: [
-              { text: '八年级上册', link: '/docs/document/八年级/8A.md' },
-              { text: '八年级下册', link: '/docs/document/八年级/8B.md' },
+              { text: '八年级上册', link: '/docs/document/8/8A.md' },
+              { text: '八年级下册', link: '/docs/document/8/8B.md' },
             ],
           },
           {
             text: '九年级',
             children: [
-              { text: '九年级上册', link: '/docs/document/九年级/9A.md' },
-              { text: '九年级下册', link: '/docs/document/九年级/9B.md' },
+              { text: '九年级上册', link: '/docs/document/9/9A.md' },
+              { text: '九年级下册', link: '/docs/document/9/9B.md' },
             ],
           },
         ],
