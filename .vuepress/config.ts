@@ -4,13 +4,16 @@ import recoTheme from "vuepress-theme-reco";
 export default defineUserConfig({
   title: "Alpha Blog",
   description: "为所有人服务的学习网站",
+  head:[
+    ["link", {rel: "icon", href: "/hero.svg"}]
+  ],
   theme: recoTheme({
     colormode: "dark",
     style: "@vuepress-reco/style-default",
-    logo: "logo.png",
+    logo: "/hero.svg",
     author: "SmallPigPig",
     authorAvatar: "/head.png",
-    docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
+    docsRepo: "https://github.com/ShiYiZhiHanZhuZhuYa/vuepressblog",
     docsBranch: "main",
     docsDir: "example",
     lastUpdatedText: "",
