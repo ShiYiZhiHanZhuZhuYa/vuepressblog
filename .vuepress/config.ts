@@ -17,9 +17,14 @@ export default defineUserConfig({
     docsBranch: "main",
     docsDir: "example",
     lastUpdatedText: "",
+    // autoSetSeries: true,
     // series 为原 sidebar
     series: {
       '/docs/document/': [
+          {
+            text: '文档的说明',
+            children: ['/docs/document/BeforeRead.html'],
+          },
           {
               text: '八年级',
               children: ['/docs/document/8/8A.html', '/docs/document/8/8B.html']
@@ -47,14 +52,14 @@ export default defineUserConfig({
         icon: 'Document',
         children: [
           {
-            text: '八年级',
+            text: '八年级资料',
             children: [
               { text: '八年级上册', link: '/docs/document/8/8A.md' },
               { text: '八年级下册', link: '/docs/document/8/8B.md' },
             ],
           },
           {
-            text: '九年级',
+            text: '九年级资料',
             children: [
               { text: '九年级上册', link: '/docs/document/9/9A.md' },
               { text: '九年级下册', link: '/docs/document/9/9B.md' },
