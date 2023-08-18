@@ -12,6 +12,7 @@ export default defineUserConfig({
     mdEnhancePlugin(
       {
         mermaid: true,
+        card: true,
       }
     )
   ],
