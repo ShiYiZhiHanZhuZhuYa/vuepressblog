@@ -1,3 +1,4 @@
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 import { defineUserConfig } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 
@@ -6,6 +7,13 @@ export default defineUserConfig({
   description: "为所有人服务的学习网站",
   head:[
     ["link", {rel: "icon", href: "/hero.svg"}]
+  ],
+  plugins:[
+    mdEnhancePlugin(
+      {
+        mermaid: true,
+      }
+    )
   ],
   theme: recoTheme({
     colormode: "dark",
@@ -19,6 +27,7 @@ export default defineUserConfig({
     lastUpdatedText: "",
     // autoSetSeries: true,
     // series 为原 sidebar
+
     series: {
       '/docs/document/': [
           {
@@ -26,11 +35,11 @@ export default defineUserConfig({
             children: ['/docs/document/BeforeRead.html'],
           },
           {
-              text: '八年级',
+              text: '八年级资料',
               children: ['/docs/document/8/8A.html', '/docs/document/8/8B.html']
           },
           {
-              text: "九年级",
+              text: "九年级资料",
               children: ['/docs/document/9/9A.html', '/docs/document/9/9B.html']
           }
       ],
@@ -90,7 +99,8 @@ export default defineUserConfig({
           }
         ]
       },
-    ],
+      { text: '音乐', link: '/docs/heomusic.html', icon: 'Music' },
+    ]
 
 //
     // commentConfig: {
@@ -106,6 +116,7 @@ export default defineUserConfig({
     //     // hideComments: true // 隐藏评论
     //   },
     // },
-  }),
+  },)
+  
   // debug: true,
 });
