@@ -4,3 +4,30 @@ table {
     width: 100% !important;
     border-radius: .5rem !important;
   }
+
+.mermaid-actions {
+  display: none;
+}
+
+.theme-container {
+  .music-page {
+    .theme-reco-default-content {
+      margin-left: 0 !important; 
+      margin-right: 0 !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      margin: 0 !important;      
+      padding: 0;
+      max-width: 100%;
+    }  
+    .page-container {
+      padding: 0;
+    }
+    .page-info {
+      display: none;
+    }
+    .page-meta {
+      display: none;
+    }
+  }
+}

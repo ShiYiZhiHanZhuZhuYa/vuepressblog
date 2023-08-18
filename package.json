@@ -11,8 +11,15 @@
     "build": "vuepress build ."
   },
   "dependencies": {
+    "element-plus": "^2.3.9",
+    "mermaid": "^10.3.1",
     "node-sass": "^8.0.0",
     "vuepress": "2.0.0-beta.66",
+    "vuepress-plugin-flowchart": "^1.5.0",
+    "vuepress-plugin-player": "^1.1.8",
     "vuepress-theme-reco": "2.0.0-beta.67"
+  },
+  "devDependencies": {
+    "vuepress-plugin-md-enhance": "^2.0.0-beta.235"
   }
 }
