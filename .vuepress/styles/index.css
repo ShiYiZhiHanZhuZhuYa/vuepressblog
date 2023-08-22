@@ -9,6 +9,15 @@ table {
   display: none;
 }
 
+.page-container {
+  .page-meta {
+    display: none;
+  }
+  .page-nav {
+    display: none;
+  }
+}
+
 .theme-container {
   .music-page {
     .theme-reco-default-content {

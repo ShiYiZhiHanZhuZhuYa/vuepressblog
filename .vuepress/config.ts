@@ -17,7 +17,6 @@ export default defineUserConfig({
     )
   ],
   theme: recoTheme({
-    colormode: "dark",
     style: "@vuepress-reco/style-default",
     logo: "/hero.svg",
     author: "SmallPigPig",
@@ -33,7 +32,11 @@ export default defineUserConfig({
       '/docs/document/': [
           {
             text: '文档的说明',
-            children: ['/docs/document/BeforeRead.html'],
+            children: ['/docs/document/BeforeRead.html', '/docs/document/rule.html'] 
+          },
+          {
+            text: '七年级资料',
+            children: ['/docs/document/7/7A.html', '/docs/document/7/7B.html']
           },
           {
               text: '八年级资料',
@@ -61,6 +64,13 @@ export default defineUserConfig({
         text: '文档',
         icon: 'Document',
         children: [
+          {
+            text: '七年级资料',
+            children: [
+              { text: '七年级上册', link: '/docs/document/7/7A.md' },
+              { text: '七年级下册', link: '/docs/document/7/7B.md' },
+            ],
+          },
           {
             text: '八年级资料',
             children: [
