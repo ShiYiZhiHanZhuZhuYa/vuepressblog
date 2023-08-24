@@ -1,6 +1,7 @@
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 import { defineUserConfig } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
+import { componentsPlugin } from "vuepress-plugin-components";
 
 export default defineUserConfig({
   title: "Alpha Blog",
@@ -15,7 +16,11 @@ export default defineUserConfig({
         card: true,
         align: true,
       }
-    )
+    ),
+    componentsPlugin(
+      {
+        components: ["Replit"]
+      })
   ],
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
