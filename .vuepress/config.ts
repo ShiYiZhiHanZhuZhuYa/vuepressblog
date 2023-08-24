@@ -13,6 +13,7 @@ export default defineUserConfig({
       {
         mermaid: true,
         card: true,
+        align: true,
       }
     )
   ],

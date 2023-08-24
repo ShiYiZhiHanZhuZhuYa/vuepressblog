@@ -9,6 +9,12 @@ table {
   display: none;
 }
 
+img {
+  text-align: center !important;
+  width: auto;
+  margin: auto;
+}
+
 .page-container {
   .page-meta {
     display: none;
