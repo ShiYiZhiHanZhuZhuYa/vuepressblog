@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-2e87e6c4","path":"/docs/about/guanyuwendang/guanyuwangzhan.html","title":"关于网站","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1691519081000,"updatedTime":1691519081000,"contributors":[{"name":"ShiYiZhiHanZhuXhuYa","email":"3552354372@qq.com","commits":1}]},"filePathRelative":"docs/about/关于文档/关于网站.md"}');export{a as data};

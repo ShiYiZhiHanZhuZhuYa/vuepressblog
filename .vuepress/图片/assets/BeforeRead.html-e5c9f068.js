@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4286afaa","path":"/docs/document/BeforeRead.html","title":"开始之前","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1692073313000,"updatedTime":1692692808000,"contributors":[{"name":"ShiYiZhiHanZhuXhuYa","email":"3552354372@qq.com","commits":2}]},"filePathRelative":"docs/document/BeforeRead.md"}');export{e as data};

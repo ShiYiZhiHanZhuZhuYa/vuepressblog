@@ -1,17 +1,16 @@
 
 table {
-    display: table !important;
-    width: 100% !important;
-    border-radius: .5rem !important;
-  }
+  display: table !important;
+  width: 100% !important;
+  border-radius: .5rem !important;
+}
+
 
 .mermaid-actions {
   display: none;
-}
+  }
 
 img {
-  text-align: center !important;
-  width: auto;
   margin: auto;
 }
 
@@ -23,8 +22,16 @@ img {
     display: none;
   }
 }
-
+  
 .theme-container {
+  aside.series-container {
+    .site-brand {
+      .logo {
+        margin: 0;
+        margin-right: 1rem
+      }
+    }
+  }
   .music-page {
     .theme-reco-default-content {
       margin-left: 0 !important; 
@@ -45,4 +52,4 @@ img {
       display: none;
     }
   }
-}
+  }
