@@ -2,6 +2,7 @@ import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 import { defineUserConfig } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 import { componentsPlugin } from "vuepress-plugin-components";
+import { sitemapPlugin } from "vuepress-plugin-sitemap2";
 
 export default defineUserConfig({
   title: "Alpha Blog",
@@ -20,7 +21,11 @@ export default defineUserConfig({
     componentsPlugin(
       {
         components: ["Replit"]
-      })
+      }),
+    sitemapPlugin({
+        // 配置选项
+        hostname: "https://alphaalist.xyz"
+      }),
   ],
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
@@ -117,7 +122,16 @@ export default defineUserConfig({
         ]
       },
       { text: '音乐', link: '/docs/heomusic.html', icon: 'Music' },
-    ]
+    ],
+
+    algolia: {
+      appId: 'LWU5H2OL7G',
+      apiKey: 'd2ee206ad9f95580681f586ec28f267d',
+      indexName: 'alphaalist',
+      inputSelector: '搜索',
+      algoliaOptionos: { 'facetFilters': ["lang:$LANG"] },
+      debug: false
+    }
 
 //
     // commentConfig: {
