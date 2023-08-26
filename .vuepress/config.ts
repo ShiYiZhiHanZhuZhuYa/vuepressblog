@@ -47,15 +47,15 @@ export default defineUserConfig({
           },
           {
             text: '七年级资料',
-            children: ['/docs/document/7/7A.html', '/docs/document/7/7B.html']
+            children: ['/docs/document/7/7a.html', '/docs/document/7/7b.html']
           },
           {
               text: '八年级资料',
-              children: ['/docs/document/8/8A.html', '/docs/document/8/8B.html']
+              children: ['/docs/document/8/8a.html', '/docs/document/8/8b.html']
           },
           {
               text: "九年级资料",
-              children: ['/docs/document/9/9A.html', '/docs/document/9/9B.html']
+              children: ['/docs/document/9/9a.html', '/docs/document/9/9b.html']
           }
       ],
 
@@ -78,22 +78,22 @@ export default defineUserConfig({
           {
             text: '七年级资料',
             children: [
-              { text: '七年级上册', link: '/docs/document/7/7A.md' },
-              { text: '七年级下册', link: '/docs/document/7/7B.md' },
+              { text: '七年级上册', link: '/docs/document/7/7a.md' },
+              { text: '七年级下册', link: '/docs/document/7/7b.md' },
             ],
           },
           {
             text: '八年级资料',
             children: [
-              { text: '八年级上册', link: '/docs/document/8/8A.md' },
-              { text: '八年级下册', link: '/docs/document/8/8B.md' },
+              { text: '八年级上册', link: '/docs/document/8/8a.md' },
+              { text: '八年级下册', link: '/docs/document/8/8b.md' },
             ],
           },
           {
             text: '九年级资料',
             children: [
-              { text: '九年级上册', link: '/docs/document/9/9A.md' },
-              { text: '九年级下册', link: '/docs/document/9/9B.md' },
+              { text: '九年级上册', link: '/docs/document/9/9a.md' },
+              { text: '九年级下册', link: '/docs/document/9/9b.md' },
             ],
           },
         ],
