@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-469a00c4","path":"/docs/document/7/7A.html","title":"七年级上学期计算机资料","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1692692808000,"updatedTime":1692692808000,"contributors":[{"name":"ShiYiZhiHanZhuXhuYa","email":"3552354372@qq.com","commits":1}]},"filePathRelative":"docs/document/7/7A.md"}');export{e as data};

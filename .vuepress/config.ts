@@ -43,7 +43,7 @@ export default defineUserConfig({
       '/docs/document/': [
           {
             text: '文档的说明',
-            children: ['/docs/document/BeforeRead.html', '/docs/document/rule.html'] 
+            children: ['/docs/document/beforeread.html', '/docs/document/rule.html'] 
           },
           {
             text: '七年级资料',
