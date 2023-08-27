@@ -1,0 +1,1 @@
+import{_ as a,o as t,c,a as e,b as o}from"./app-61a4770d.js";const r={},s=e("h1",{id:"七年级上学期计算机资料",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#七年级上学期计算机资料","aria-hidden":"true"},"#"),o(" 七年级上学期计算机资料")],-1),_=[s];function n(d,i){return t(),c("div",null,_)}const l=a(r,[["render",n],["__file","7a.html.vue"]]);export{l as default};
