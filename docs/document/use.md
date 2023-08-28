@@ -34,6 +34,10 @@
 
 我们有在认真改善这一缺陷，如果您愿意支持我们，我们也愿意购买一台独立的云服务器提供完善的国内代码编辑服务。亦或者从 SmallPigPig 的私有服务器中腾出资源
 
+<div align="center">
+	<img src="https://image.alphaalist.xyz/收款码.png" width="400">
+</div>
+
 您可以在下方体验 replit 组件，可能需要一点时间
 
 <Replit user="ShiYiZhiHanZhuZ" repl="Zi-Fu-Chuan-Shu-Ju-Lei-Xing-Zhuan-Huan" file="main.py" />
