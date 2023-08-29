@@ -43,7 +43,7 @@ export default defineUserConfig({
       '/docs/document/': [
           {
             text: '文档的说明',
-            children: ['/docs/document/beforeread.html', '/docs/document/rule.html', '/docs/document/use.html'] 
+            children: ['/docs/document/beforeread.html', '/docs/document/rule.html', '/docs/document/use.html', '/docs/document/pull.html'] 
           },
           {
             text: '七年级资料',
@@ -75,6 +75,15 @@ export default defineUserConfig({
         text: '文档',
         icon: 'Document',
         children: [
+          {
+            text: '文档的说明',
+            children: [
+              { text: '开始之前', link: '/docs/document/beforeread.md' },
+              { text: '语法规范', link: '/docs/document/rule.md' },
+              { text: '如何使用', link: '/docs/document/use.md' },
+              { text: '本地部署', link: '/docs/document/pull.md' },
+            ],
+          },
           {
             text: '七年级资料',
             children: [
