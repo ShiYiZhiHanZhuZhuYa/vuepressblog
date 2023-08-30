@@ -76,15 +76,6 @@ export default defineUserConfig({
         icon: 'Document',
         children: [
           {
-            text: '文档的说明',
-            children: [
-              { text: '开始之前', link: '/docs/document/beforeread.md' },
-              { text: '语法规范', link: '/docs/document/rule.md' },
-              { text: '如何使用', link: '/docs/document/use.md' },
-              { text: '本地部署', link: '/docs/document/pull.md' },
-            ],
-          },
-          {
             text: '七年级资料',
             children: [
               { text: '七年级上册', link: '/docs/document/7/7a.md' },
