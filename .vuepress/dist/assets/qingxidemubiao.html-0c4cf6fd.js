@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-4b33fd75","path":"/docs/about/wendangyoushi/qingxidemubiao.html","title":"清晰的目标","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1691519081000,"updatedTime":1693057082000,"contributors":[{"name":"ShiYiZhiHanZhuXhuYa","email":"3552354372@qq.com","commits":3}]},"filePathRelative":"docs/about/文档优势/清晰的目标.md"}');export{e as data};
