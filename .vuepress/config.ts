@@ -31,7 +31,7 @@ export default defineUserConfig({
     style: "@vuepress-reco/style-default",
     logo: "/hero.svg",
     author: "SmallPigPig",
-    authorAvatar: "/head.png",
+    authorAvatar: "/head.jpg",
     docsRepo: "https://github.com/ShiYiZhiHanZhuZhuYa/vuepressblog",
     docsBranch: "main",
     docsDir: "example",
@@ -71,6 +71,7 @@ export default defineUserConfig({
       ]
     },
     navbar: [
+      { text: '博客', link: '/posts', icon: 'Compass' },
       {
         text: '文档',
         icon: 'Document',
@@ -96,6 +97,7 @@ export default defineUserConfig({
               { text: '九年级下册', link: '/docs/document/9/9b.md' },
             ],
           },
+          
         ],
       },
 

@@ -2,6 +2,7 @@
 home: true
 modules:
   - BannerBrand
+  - Blog
 bannerBrand:
   bgImage: '/bg.svg'
   title: AlphaBlog
