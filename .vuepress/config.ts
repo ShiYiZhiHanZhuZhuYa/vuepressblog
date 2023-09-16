@@ -31,7 +31,7 @@ export default defineUserConfig({
     style: "@vuepress-reco/style-default",
     logo: "/hero.svg",
     author: "SmallPigPig",
-    authorAvatar: "/head.jpg",
+    authorAvatar: "/head.png",
     docsRepo: "https://github.com/ShiYiZhiHanZhuZhuYa/vuepressblog",
     docsBranch: "main",
     docsDir: "example",

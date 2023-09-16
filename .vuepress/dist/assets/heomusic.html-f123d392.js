@@ -1,0 +1,1 @@
+import{_ as e,o as t,c,b as o}from"./app-518416cb.js";const s={},n=o("iframe",{id:"iframe",src:"/apps/index.html",name:"content",frameborder:"0",style:{width:"100%",height:"95vh"}},null,-1),r=[n];function a(_,i){return t(),c("div",null,r)}const m=e(s,[["render",a],["__file","heomusic.html.vue"]]);export{m as default};

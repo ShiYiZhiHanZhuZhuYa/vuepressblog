@@ -5,14 +5,14 @@ table {
   border-radius: .5rem !important;
 }
 
-img {
-  margin: auto
-}
-
 
 .mermaid-actions {
   display: none;
   }
+
+img {
+  margin: auto;
+}
 
 .page-container {
   .page-meta {
