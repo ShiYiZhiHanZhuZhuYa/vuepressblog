@@ -15,15 +15,17 @@
     "mermaid": "^10.3.1",
     "node-sass": "^8.0.0",
     "vue-server-renderer": "^2.7.14",
-    "vuepress": "2.0.0-beta.66",
+    "vuepress": "^2.0.0-beta.66",
     "vuepress-plugin-components": "^2.0.0-beta.235",
     "vuepress-plugin-flowchart": "^1.5.0",
     "vuepress-plugin-player": "^1.1.8",
+    "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-theme-reco": "2.0.0-beta.67",
     "webpack": "^5.88.2"
   },
   "devDependencies": {
     "vuepress-plugin-md-enhance": "^2.0.0-beta.235",
+    "vuepress-plugin-reading-time2": "^2.0.0-beta.235",
     "vuepress-plugin-sitemap2": "^2.0.0-beta.235"
   }
 }

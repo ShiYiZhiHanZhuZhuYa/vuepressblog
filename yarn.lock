@@ -1712,7 +1712,7 @@
 
 "@vuepress/cli@2.0.0-beta.66":
   version "2.0.0-beta.66"
-  resolved "https://registry.npmmirror.com/@vuepress/cli/-/cli-2.0.0-beta.66.tgz"
+  resolved "https://registry.npmmirror.com/@vuepress/cli/-/cli-2.0.0-beta.66.tgz#55ff9ea1415270e05ecb6214f576d024998341da"
   integrity sha512-VWOAxjePlxeao/6ecg1AQrrnbtgDJ0VOyYX3Zx2r2vwD0lBDE8OCtJUjP2X+3g2H8bauY4utM7rqWqm7yHC1og==
   dependencies:
     "@vuepress/core" "2.0.0-beta.66"
@@ -1731,6 +1731,17 @@
     "@vue/devtools-api" "^6.5.0"
     "@vuepress/shared" "2.0.0-beta.66"
     "@vueuse/core" "^10.2.1"
+    vue "^3.3.4"
+    vue-router "^4.2.4"
+
+"@vuepress/client@2.0.0-beta.67":
+  version "2.0.0-beta.67"
+  resolved "https://registry.npmmirror.com/@vuepress/client/-/client-2.0.0-beta.67.tgz#7cb444eaa12032a7d07b8d59a515d291933518dc"
+  integrity sha512-xfXZXmZmMbCvQxUhNltuAZzpoiwM0x9ke+DdPPDBF0oGMNDlmtOlsD7NcH322vQE3ehYy5mXJttXuEmfoNOG6A==
+  dependencies:
+    "@vue/devtools-api" "^6.5.0"
+    "@vuepress/shared" "2.0.0-beta.67"
+    "@vueuse/core" "^10.4.1"
     vue "^3.3.4"
     vue-router "^4.2.4"
 
@@ -1922,9 +1933,17 @@
     "@mdit-vue/types" "^0.12.0"
     "@vue/shared" "^3.3.4"
 
+"@vuepress/shared@2.0.0-beta.67":
+  version "2.0.0-beta.67"
+  resolved "https://registry.npmmirror.com/@vuepress/shared/-/shared-2.0.0-beta.67.tgz#fb9abc662904117a97c26004aa436f1f2aa02263"
+  integrity sha512-gm8/6oAnd0Jh8g9xB89S+g8XJxt30QmeXK79J2Nwcbgy88CZnYbZssU1noyxFt4cHDX8wpUf8V5I388/dfHfoQ==
+  dependencies:
+    "@mdit-vue/types" "^0.12.0"
+    "@vue/shared" "^3.3.4"
+
 "@vuepress/theme-default@2.0.0-beta.66":
   version "2.0.0-beta.66"
-  resolved "https://registry.npmmirror.com/@vuepress/theme-default/-/theme-default-2.0.0-beta.66.tgz"
+  resolved "https://registry.npmmirror.com/@vuepress/theme-default/-/theme-default-2.0.0-beta.66.tgz#145b452d71db75dd162297abce89ff930a9c2c08"
   integrity sha512-5h2R1L+isDoQ0+JW8xLbR9fwUP7ysKAaWdb4+1ahXCpo5aGJRfO6S1NzUihKseut0UG7Lv3omnVVzBOh3joGNw==
   dependencies:
     "@vuepress/client" "2.0.0-beta.66"
@@ -1964,6 +1983,23 @@
     picocolors "^1.0.0"
     upath "^2.0.1"
 
+"@vuepress/utils@2.0.0-beta.67":
+  version "2.0.0-beta.67"
+  resolved "https://registry.npmmirror.com/@vuepress/utils/-/utils-2.0.0-beta.67.tgz#16bcc4bb5a3db270f205ca7b809c178d6774d9fa"
+  integrity sha512-wCK0uggm4gXroy7UkS1u8wDQmD4b0L6Gjqd/1PZTDhNlMLsrjBx7lqqoIKqarMdB2wmDLroPJcC9otvCz2oQug==
+  dependencies:
+    "@types/debug" "^4.1.8"
+    "@types/fs-extra" "^11.0.1"
+    "@types/hash-sum" "^1.0.0"
+    "@vuepress/shared" "2.0.0-beta.67"
+    debug "^4.3.4"
+    fs-extra "^11.1.1"
+    globby "^13.2.2"
+    hash-sum "^2.0.0"
+    ora "^7.0.1"
+    picocolors "^1.0.0"
+    upath "^2.0.1"
+
 "@vueuse/core@^10.2.1", "@vueuse/core@^10.3.0":
   version "10.3.0"
   resolved "https://registry.npmmirror.com/@vueuse/core/-/core-10.3.0.tgz"
@@ -1972,6 +2008,16 @@
     "@types/web-bluetooth" "^0.0.17"
     "@vueuse/metadata" "10.3.0"
     "@vueuse/shared" "10.3.0"
+    vue-demi ">=0.14.5"
+
+"@vueuse/core@^10.4.1":
+  version "10.4.1"
+  resolved "https://registry.npmmirror.com/@vueuse/core/-/core-10.4.1.tgz#fc2c8a83a571c207aaedbe393b22daa6d35123f2"
+  integrity sha512-DkHIfMIoSIBjMgRRvdIvxsyboRZQmImofLyOHADqiVbQVilP8VVHDhBX2ZqoItOgu7dWa8oXiNnScOdPLhdEXg==
+  dependencies:
+    "@types/web-bluetooth" "^0.0.17"
+    "@vueuse/metadata" "10.4.1"
+    "@vueuse/shared" "10.4.1"
     vue-demi ">=0.14.5"
 
 "@vueuse/core@^9.1.0":
@@ -1999,6 +2045,11 @@
   resolved "https://registry.npmmirror.com/@vueuse/metadata/-/metadata-10.3.0.tgz"
   integrity sha512-Ema3YhNOa4swDsV0V7CEY5JXvK19JI/o1szFO1iWxdFg3vhdFtCtSTP26PCvbUpnUtNHBY2wx5y3WDXND5Pvnw==
 
+"@vueuse/metadata@10.4.1":
+  version "10.4.1"
+  resolved "https://registry.npmmirror.com/@vueuse/metadata/-/metadata-10.4.1.tgz#9d2ff5c67abf17a8c07865c2413fbd0e92f7b7d7"
+  integrity sha512-2Sc8X+iVzeuMGHr6O2j4gv/zxvQGGOYETYXEc41h0iZXIRnRbJZGmY/QP8dvzqUelf8vg0p/yEA5VpCEu+WpZg==
+
 "@vueuse/metadata@9.12.0":
   version "9.12.0"
   resolved "https://registry.npmmirror.com/@vueuse/metadata/-/metadata-9.12.0.tgz"
@@ -2013,6 +2064,13 @@
   version "10.3.0"
   resolved "https://registry.npmmirror.com/@vueuse/shared/-/shared-10.3.0.tgz"
   integrity sha512-kGqCTEuFPMK4+fNWy6dUOiYmxGcUbtznMwBZLC1PubidF4VZY05B+Oht7Jh7/6x4VOWGpvu3R37WHi81cKpiqg==
+  dependencies:
+    vue-demi ">=0.14.5"
+
+"@vueuse/shared@10.4.1":
+  version "10.4.1"
+  resolved "https://registry.npmmirror.com/@vueuse/shared/-/shared-10.4.1.tgz#d5ce33033c156efb60664b5d6034d6cd4e2f530c"
+  integrity sha512-vz5hbAM4qA0lDKmcr2y3pPdU+2EVw/yzfRsBdu+6+USGa4PxqSQRYIUC9/NcT06y+ZgaTsyURw2I9qOFaaXHAg==
   dependencies:
     vue-demi ">=0.14.5"
 
@@ -2768,6 +2826,11 @@ chalk@^5.0.0:
   resolved "https://registry.npmmirror.com/chalk/-/chalk-5.2.0.tgz"
   integrity sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==
 
+chalk@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.npmmirror.com/chalk/-/chalk-5.3.0.tgz#67c20a7ebef70e7f3970a01f90fa210cb6860385"
+  integrity sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==
+
 character-entities@^2.0.0:
   version "2.0.2"
   resolved "https://registry.npmmirror.com/character-entities/-/character-entities-2.0.2.tgz"
@@ -2858,6 +2921,11 @@ cli-spinners@^2.6.1:
   version "2.7.0"
   resolved "https://registry.npmmirror.com/cli-spinners/-/cli-spinners-2.7.0.tgz"
   integrity sha512-qu3pN8Y3qHNgE2AFweciB1IfMnmZ/fsNTEE+NOFjmGB2F/7rLhnhzppvpCnN4FovtP26k8lHyy9ptEbNwWFLzw==
+
+cli-spinners@^2.9.0:
+  version "2.9.1"
+  resolved "https://registry.npmmirror.com/cli-spinners/-/cli-spinners-2.9.1.tgz#9c0b9dad69a6d47cbb4333c14319b060ed395a35"
+  integrity sha512-jHgecW0pxkonBJdrKsqxgRX9AcG+u/5k0Q7WPDfi8AogLAdwxEkyYYNWwZ5GvVFoFx2uiY1eNcSK00fh+1+FyQ==
 
 cliui@^3.0.3:
   version "3.2.0"
@@ -3751,6 +3819,11 @@ dot-case@^3.0.4:
     no-case "^3.0.4"
     tslib "^2.0.3"
 
+eastasianwidth@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npmmirror.com/eastasianwidth/-/eastasianwidth-0.2.0.tgz#696ce2ec0aa0e6ea93a397ffcf24aa7840c827cb"
+  integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
+
 echarts@^5.4.3:
   version "5.4.3"
   resolved "https://registry.npmmirror.com/echarts/-/echarts-5.4.3.tgz"
@@ -3799,6 +3872,11 @@ elkjs@^0.8.2:
   version "0.8.2"
   resolved "https://registry.npmmirror.com/elkjs/-/elkjs-0.8.2.tgz"
   integrity sha512-L6uRgvZTH+4OF5NE/MBbzQx/WYpru1xCBE9respNj6qznEewGUIfhzmm7horWWxbNO2M0WckQypGctR8lH79xQ==
+
+emoji-regex@^10.2.1:
+  version "10.2.1"
+  resolved "https://registry.npmmirror.com/emoji-regex/-/emoji-regex-10.2.1.tgz#a41c330d957191efd3d9dfe6e1e8e1e9ab048b3f"
+  integrity sha512-97g6QgOk8zlDRdgq1WxwgTMgEWGVAQvB5Fdpgc1MkNy56la5SKP9GsMXKDOdqwn90/41a8yPwIGk1Y6WVbeMQA==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -4079,6 +4157,21 @@ execa@^7.1.1, execa@^7.2.0:
     npm-run-path "^5.1.0"
     onetime "^6.0.0"
     signal-exit "^3.0.7"
+    strip-final-newline "^3.0.0"
+
+execa@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.npmmirror.com/execa/-/execa-8.0.1.tgz#51f6a5943b580f963c3ca9c6321796db8cc39b8c"
+  integrity sha512-VyhnebXciFV2DESc+p6B+y0LjSm0krU4OgJN44qFAhBY0TJ+1V61tYD2+wHusZ6F9n5K+vl8k0sTy7PEfV4qpg==
+  dependencies:
+    cross-spawn "^7.0.3"
+    get-stream "^8.0.1"
+    human-signals "^5.0.0"
+    is-stream "^3.0.0"
+    merge-stream "^2.0.0"
+    npm-run-path "^5.1.0"
+    onetime "^6.0.0"
+    signal-exit "^4.1.0"
     strip-final-newline "^3.0.0"
 
 express@^4.17.3, express@^4.18.2:
@@ -4363,6 +4456,11 @@ get-stream@^6.0.0, get-stream@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmmirror.com/get-stream/-/get-stream-6.0.1.tgz"
   integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
+
+get-stream@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.npmmirror.com/get-stream/-/get-stream-8.0.1.tgz#def9dfd71742cd7754a7761ed43749a27d02eca2"
+  integrity sha512-VaUJspBffn/LMCJVoMvSAdmscJyS1auj5Zulnn5UoYcY531UWmdwhRWkcGKnGU93m5HSXP9LP2usOryrBtQowA==
 
 get-tsconfig@^4.4.0:
   version "4.6.2"
@@ -4709,6 +4807,11 @@ human-signals@^4.3.0:
   resolved "https://registry.npmmirror.com/human-signals/-/human-signals-4.3.1.tgz"
   integrity sha512-nZXjEF2nbo7lIw3mgYjItAfgQXog3OjJogSbKa2CQIIvSGWcKgeJnQlNXip6NglNzYH45nSRiEVimMvYL8DDqQ==
 
+human-signals@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmmirror.com/human-signals/-/human-signals-5.0.0.tgz#42665a284f9ae0dade3ba41ebc37eb4b852f3a28"
+  integrity sha512-AXcZb6vzzrFAUE61HnN4mpLqd/cSIwNQjtNWR0euPm6y0iqx3G4gOXaIDdtdDwZmhwe82LA6+zinmW4UBWVePQ==
+
 humanize-ms@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npmmirror.com/humanize-ms/-/humanize-ms-1.2.1.tgz"
@@ -4959,7 +5062,7 @@ is-stream@^3.0.0:
   resolved "https://registry.npmmirror.com/is-stream/-/is-stream-3.0.0.tgz"
   integrity sha512-LnQR4bZ9IADDRSkvpqMGvt/tEJWclzklNgSw48V5EAaAeDd6qGvN8ei6k5p0tvxSR171VmGyHuTiAOfxAbr8kA==
 
-is-unicode-supported@^1.1.0:
+is-unicode-supported@^1.1.0, is-unicode-supported@^1.3.0:
   version "1.3.0"
   resolved "https://registry.npmmirror.com/is-unicode-supported/-/is-unicode-supported-1.3.0.tgz"
   integrity sha512-43r2mRvz+8JRIKnWJ+3j8JtjRKZ6GmjzfaE/qiBJnikNnYv/6bagRJ1kUhNk8R5EX/GkobD+r+sfxCPJsiKBLQ==
@@ -5257,6 +5360,21 @@ lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmmirror.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
   integrity sha512-xYHt68QRoYGjeeM/XOE1uJtvXQAgvszfBhjV4yvsQH0u2i9I6cI6c6/eG4Hh3UAOVn0y/xAXwmTzEay49Q//HA==
+
+lodash.chunk@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.npmmirror.com/lodash.chunk/-/lodash.chunk-4.2.0.tgz#66e5ce1f76ed27b4303d8c6512e8d1216e8106bc"
+  integrity sha512-ZzydJKfUHJwHa+hF5X66zLFCBrWn5GeF28OHEr4WVWtNDXlQ/IjWKPBiikqKo2ne0+v6JgCgJ0GzJp8k8bHC7w==
+
+lodash.padstart@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.npmmirror.com/lodash.padstart/-/lodash.padstart-4.6.1.tgz#d2e3eebff0d9d39ad50f5cbd1b52a7bce6bb611b"
+  integrity sha512-sW73O6S8+Tg66eY56DBk85aQzzUJDtpoXFBgELMd5P/SotAguo+1kYO6RuYgXxA4HJH3LFTFPASX6ET6bjfriw==
+
+lodash.sortby@^4.7.0:
+  version "4.7.0"
+  resolved "https://registry.npmmirror.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
+  integrity sha512-HDWXG8isMntAyRF5vZ7xKuEvOhT4AhlRt/3czTSjvGUxjYCBVRQY48ViDHyfYz9VIoBkW4TMGQNapx+l3RUwdA==
 
 lodash.template@^4.5.0:
   version "4.5.0"
@@ -6263,6 +6381,21 @@ ora@^6.3.1:
     strip-ansi "^7.0.1"
     wcwidth "^1.0.1"
 
+ora@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.npmmirror.com/ora/-/ora-7.0.1.tgz#cdd530ecd865fe39e451a0e7697865669cb11930"
+  integrity sha512-0TUxTiFJWv+JnjWm4o9yvuskpEJLXTcng8MJuKd+SzAzp2o+OP3HWqNhB4OdJRt1Vsd9/mR0oyaEYlOnL7XIRw==
+  dependencies:
+    chalk "^5.3.0"
+    cli-cursor "^4.0.0"
+    cli-spinners "^2.9.0"
+    is-interactive "^2.0.0"
+    is-unicode-supported "^1.3.0"
+    log-symbols "^5.1.0"
+    stdin-discarder "^0.1.0"
+    string-width "^6.1.0"
+    strip-ansi "^7.1.0"
+
 os-locale@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmmirror.com/os-locale/-/os-locale-1.4.0.tgz"
@@ -6941,7 +7074,16 @@ sass-loader@^13.3.2:
   dependencies:
     neo-async "^2.6.2"
 
-sass@^1.63.6, sass@^1.65.1:
+sass@^1.63.6:
+  version "1.67.0"
+  resolved "https://registry.npmmirror.com/sass/-/sass-1.67.0.tgz#fed84d74b9cd708db603b1380d6dc1f71bb24f6f"
+  integrity sha512-SVrO9ZeX/QQyEGtuZYCVxoeAL5vGlYjJ9p4i4HFuekWl8y/LtJ7tJc10Z+ck1c8xOuoBm2MYzcLfTAffD0pl/A==
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+    immutable "^4.0.0"
+    source-map-js ">=0.6.2 <2.0.0"
+
+sass@^1.65.1:
   version "1.66.1"
   resolved "https://registry.npmmirror.com/sass/-/sass-1.66.1.tgz"
   integrity sha512-50c+zTsZOJVgFfTgwwEzkjA3/QACgdNsKueWPyAR0mRINIvLAStVQBbPg14iuqEQ74NPDbXzJARJ/O4SI1zftA==
@@ -7134,6 +7276,21 @@ signal-exit@^3.0.2, signal-exit@^3.0.3, signal-exit@^3.0.7:
   version "3.0.7"
   resolved "https://registry.npmmirror.com/signal-exit/-/signal-exit-3.0.7.tgz"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
+
+signal-exit@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.npmmirror.com/signal-exit/-/signal-exit-4.1.0.tgz#952188c1cbd546070e2dd20d0f41c0ae0530cb04"
+  integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
+
+sitemap@^3.0.0:
+  version "3.2.2"
+  resolved "https://registry.npmmirror.com/sitemap/-/sitemap-3.2.2.tgz#3f77c358fa97b555c879e457098e39910095c62b"
+  integrity sha512-TModL/WU4m2q/mQcrDgNANn0P4LwprM9MMvG4hu5zP4c6IIKs2YLTu6nXXnNr8ODW/WFtxKggiJ1EGn2W0GNmg==
+  dependencies:
+    lodash.chunk "^4.2.0"
+    lodash.padstart "^4.6.1"
+    whatwg-url "^7.0.0"
+    xmlbuilder "^13.0.0"
 
 sitemap@^7.1.1:
   version "7.1.1"
@@ -7357,6 +7514,15 @@ string-width@^1.0.1:
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^6.0.1"
 
+string-width@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.npmmirror.com/string-width/-/string-width-6.1.0.tgz#96488d6ed23f9ad5d82d13522af9e4c4c3fd7518"
+  integrity sha512-k01swCJAgQmuADB0YIc+7TuatfNvTBVOoaUWJjTB9R4VJzR5vNWzf5t42ESVZFPS8xTySF7CAdV4t/aaIm3UnQ==
+  dependencies:
+    eastasianwidth "^0.2.0"
+    emoji-regex "^10.2.1"
+    strip-ansi "^7.0.1"
+
 string_decoder@^1.1.1:
   version "1.3.0"
   resolved "https://registry.npmmirror.com/string_decoder/-/string_decoder-1.3.0.tgz"
@@ -7389,6 +7555,13 @@ strip-ansi@^7.0.1:
   version "7.0.1"
   resolved "https://registry.npmmirror.com/strip-ansi/-/strip-ansi-7.0.1.tgz"
   integrity sha512-cXNxvT8dFNRVfhVME3JAe98mkXDYN2O1l7jmcwMnOslDeESg1rF/OZMtK0nRAhiari1unG5cD4jG3rapUAkLbw==
+  dependencies:
+    ansi-regex "^6.0.1"
+
+strip-ansi@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.npmmirror.com/strip-ansi/-/strip-ansi-7.1.0.tgz#d5b6568ca689d8561370b0707685d22434faff45"
+  integrity sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ==
   dependencies:
     ansi-regex "^6.0.1"
 
@@ -7585,6 +7758,13 @@ toidentifier@1.0.1:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/toidentifier/-/toidentifier-1.0.1.tgz"
   integrity sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==
+
+tr46@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmmirror.com/tr46/-/tr46-1.0.1.tgz#a8b13fd6bfd2489519674ccde55ba3693b706d09"
+  integrity sha512-dTpowEjclQ7Kgx5SdBkqRzVhERQXov8/l9Ft9dVM9fmg0W0KQSVaXX9T4i6twCPNtYiZM53lpSSUAwJbFPOHxA==
+  dependencies:
+    punycode "^2.1.0"
 
 trim-newlines@^3.0.0:
   version "3.0.1"
@@ -7969,6 +8149,15 @@ vuepress-plugin-reading-time2@2.0.0-beta.235:
     vue "^3.3.4"
     vuepress-shared "2.0.0-beta.235"
 
+vuepress-plugin-reading-time2@^2.0.0-beta.235:
+  version "2.0.0-beta.237"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-reading-time2/-/vuepress-plugin-reading-time2-2.0.0-beta.237.tgz#06f27adc235ebb5052e9dc97220794a48b700eab"
+  integrity sha512-JTO1Eyhbhnfbhz8D6vqFfo0peRSt7M+ZnBx7ANf6T9AmTWYF0qO+HA1EuYTp35+YLsGyBMUl6vwmJAXjKSknag==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.67"
+    vue "^3.3.4"
+    vuepress-shared "2.0.0-beta.237"
+
 vuepress-plugin-sass-palette@2.0.0-beta.235:
   version "2.0.0-beta.235"
   resolved "https://registry.npmmirror.com/vuepress-plugin-sass-palette/-/vuepress-plugin-sass-palette-2.0.0-beta.235.tgz"
@@ -7990,6 +8179,13 @@ vuepress-plugin-sitemap2@^2.0.0-beta.235:
     sitemap "^7.1.1"
     vuepress-shared "2.0.0-beta.235"
 
+vuepress-plugin-sitemap@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-sitemap/-/vuepress-plugin-sitemap-2.3.1.tgz#51298aca77a5de96396fdbd1103e1637dd61ae6a"
+  integrity sha512-n+8lbukhrKrsI9H/EX0EBgkE1pn85LAQFvQ5dIvrZP4Kz6JxPOPPNTQmZMhahQV1tXbLZQCEN7A1WZH4x+arJQ==
+  dependencies:
+    sitemap "^3.0.0"
+
 vuepress-shared@2.0.0-beta.235:
   version "2.0.0-beta.235"
   resolved "https://registry.npmmirror.com/vuepress-shared/-/vuepress-shared-2.0.0-beta.235.tgz"
@@ -8002,6 +8198,25 @@ vuepress-shared@2.0.0-beta.235:
     cheerio "1.0.0-rc.12"
     dayjs "^1.11.9"
     execa "^7.2.0"
+    fflate "^0.8.0"
+    gray-matter "^4.0.3"
+    semver "^7.5.4"
+    striptags "^3.2.0"
+    vue "^3.3.4"
+    vue-router "^4.2.4"
+
+vuepress-shared@2.0.0-beta.237:
+  version "2.0.0-beta.237"
+  resolved "https://registry.npmmirror.com/vuepress-shared/-/vuepress-shared-2.0.0-beta.237.tgz#526e9cbd5d9fb1e2c5ec8183875aa2ebbaf27811"
+  integrity sha512-R4lGkX0GD1yUyK0iDrWIZvJbuoGyi9Z41gPz3jFexJM4ojjirkuvLy6DuMwFCi80GKJlrfWq19Tpeo5z5foPBA==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.67"
+    "@vuepress/shared" "2.0.0-beta.67"
+    "@vuepress/utils" "2.0.0-beta.67"
+    "@vueuse/core" "^10.4.1"
+    cheerio "1.0.0-rc.12"
+    dayjs "^1.11.9"
+    execa "^8.0.1"
     fflate "^0.8.0"
     gray-matter "^4.0.3"
     semver "^7.5.4"
@@ -8052,7 +8267,7 @@ vuepress-theme-reco@2.0.0-beta.67:
 
 vuepress-vite@2.0.0-beta.66:
   version "2.0.0-beta.66"
-  resolved "https://registry.npmmirror.com/vuepress-vite/-/vuepress-vite-2.0.0-beta.66.tgz"
+  resolved "https://registry.npmmirror.com/vuepress-vite/-/vuepress-vite-2.0.0-beta.66.tgz#0b86fceb6f3a7374572b2c794b950799e395e320"
   integrity sha512-ezJC+IXDb5j5IrNP91gcvx2/jiSACSOjzK1kNoYSYw/D17j9E6sZ6ddVTFLj6C/vGfhiNT9roP/nvK4TFgsehg==
   dependencies:
     "@vuepress/bundler-vite" "2.0.0-beta.66"
@@ -8061,9 +8276,9 @@ vuepress-vite@2.0.0-beta.66:
     "@vuepress/theme-default" "2.0.0-beta.66"
     vue "^3.3.4"
 
-vuepress@2.0.0-beta.66:
+vuepress@^2.0.0-beta.66:
   version "2.0.0-beta.66"
-  resolved "https://registry.npmmirror.com/vuepress/-/vuepress-2.0.0-beta.66.tgz"
+  resolved "https://registry.npmmirror.com/vuepress/-/vuepress-2.0.0-beta.66.tgz#37c8b117b37aed5b151afe4bb4bace19285aa814"
   integrity sha512-BrpORW3QR0/DgtOk6S5EHKG2jn4IURWHI5oLROmc6gpqlZ30T0Ya6pGq9PzG023p9Le5LZVzeuIefEW0srXUYA==
   dependencies:
     vuepress-vite "2.0.0-beta.66"
@@ -8094,6 +8309,11 @@ web-worker@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npmmirror.com/web-worker/-/web-worker-1.2.0.tgz"
   integrity sha512-PgF341avzqyx60neE9DD+XS26MMNMoUQRz9NOZwW32nPQrF6p77f1htcnjBSEV8BGMKZ16choqUG4hyI0Hx7mA==
+
+webidl-conversions@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.npmmirror.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
+  integrity sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==
 
 webpack-chain@^6.5.1:
   version "6.5.1"
@@ -8220,6 +8440,15 @@ webworkify-webpack@^2.1.5:
   resolved "https://registry.npmmirror.com/webworkify-webpack/-/webworkify-webpack-2.1.5.tgz"
   integrity sha512-2akF8FIyUvbiBBdD+RoHpoTbHMQF2HwjcxfDvgztAX5YwbZNyrtfUMgvfgFVsgDhDPVTlkbb5vyasqDHfIDPQw==
 
+whatwg-url@^7.0.0:
+  version "7.1.0"
+  resolved "https://registry.npmmirror.com/whatwg-url/-/whatwg-url-7.1.0.tgz#c2c492f1eca612988efd3d2266be1b9fc6170d06"
+  integrity sha512-WUu7Rg1DroM7oQvGWfOiAK21n74Gg+T4elXEQYkOhtyLeWiJFoOGLXPKI/9gzIie9CtwVLm8wtw6YJdKyxSjeg==
+  dependencies:
+    lodash.sortby "^4.7.0"
+    tr46 "^1.0.1"
+    webidl-conversions "^4.0.2"
+
 which-module@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npmmirror.com/which-module/-/which-module-2.0.1.tgz"
@@ -8296,6 +8525,11 @@ ws@^8.13.0:
   version "8.13.0"
   resolved "https://registry.npmmirror.com/ws/-/ws-8.13.0.tgz"
   integrity sha512-x9vcZYTrFPC7aSIbj7sRCYo7L/Xb8Iy+pW0ng0wt2vCJv7M9HOMy0UoN3rr+IFC7hb7vXoqS+P9ktyLLLhO+LA==
+
+xmlbuilder@^13.0.0:
+  version "13.0.2"
+  resolved "https://registry.npmmirror.com/xmlbuilder/-/xmlbuilder-13.0.2.tgz#02ae33614b6a047d1c32b5389c1fdacb2bce47a7"
+  integrity sha512-Eux0i2QdDYKbdbA6AM6xE4m6ZTZr4G4xF9kahI2ukSEMCzwce2eX9WlTI5J3s+NU7hpasFsr8hWIONae7LluAQ==
 
 xmldom-sre@0.1.31:
   version "0.1.31"
