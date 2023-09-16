@@ -3,7 +3,6 @@ import { defineUserConfig } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 import { componentsPlugin } from "vuepress-plugin-components";
 import { sitemapPlugin } from "vuepress-plugin-sitemap2";
-import { readingTimePlugin } from "vuepress-plugin-reading-time2";
 
 export default defineUserConfig({
   title: "Alpha Blog",
@@ -26,9 +25,6 @@ export default defineUserConfig({
     sitemapPlugin({
         // 配置选项
         hostname: "https://alphaalist.xyz"
-      }),
-    readingTimePlugin({
-        // 你的选项
       }),
   ],
   theme: recoTheme({
