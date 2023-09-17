@@ -3,6 +3,7 @@ import { defineUserConfig } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 import { componentsPlugin } from "vuepress-plugin-components";
 import { sitemapPlugin } from "vuepress-plugin-sitemap2";
+import { readingTimePlugin } from "vuepress-plugin-reading-time2";
 
 export default defineUserConfig({
   title: "Alpha Blog",
@@ -26,6 +27,10 @@ export default defineUserConfig({
         // 配置选项
         hostname: "https://alphaalist.xyz"
       }),
+    readingTimePlugin({
+        // 你的选项
+      }),
+
   ],
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
@@ -38,6 +43,17 @@ export default defineUserConfig({
     lastUpdatedText: "",
     // autoSetSeries: true,
     // series 为原 sidebar
+
+    commentConfig: {
+      type: 'waline',
+      options: {
+        serverURL: 'http://waline.alphaalist.xyz/.netlify/functions/comment',
+        appId: 'HADZOK73eZVBshK93z7H6pmv-MdYXbMMI',
+        appKey: '1o8OZAYGRJG8guNuVWSUCr1r',
+        recordIP: true,
+        lang: 'zh-cn',
+      }
+    },
 
     series: {
       '/docs/docs/document/': [
