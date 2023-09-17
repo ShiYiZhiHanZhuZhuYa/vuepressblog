@@ -42,7 +42,7 @@ export default defineUserConfig({
     commentConfig: {
       type: 'waline',
       options: {
-        serverURL: 'http://waline.alphaalist.xyz/.netlify/functions/comment',
+        serverURL: 'https://waline.alphaalist.xyz/.netlify/functions/comment',
         lang: 'zh-CN',
       }
     },
