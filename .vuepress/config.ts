@@ -72,7 +72,6 @@ export default defineUserConfig({
     },
     navbar: [
       { text: '博客', link: '/posts', icon: 'Compass' },
-      { text: '日志', link: '/timeline', icon: 'Schematics' },
       {
         text: '文档',
         icon: 'Document',
