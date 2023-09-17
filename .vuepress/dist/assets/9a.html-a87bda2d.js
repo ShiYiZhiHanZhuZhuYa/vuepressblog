@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2b2ff2c0","path":"/docs/docs/document/9/9a.html","title":"九年级上学期计算机资料","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1694795776000,"updatedTime":1694829155000,"contributors":[{"name":"ShiYiZhiHanZhuXhuYa","email":"3552354372@qq.com","commits":2}]},"filePathRelative":"docs/docs/document/9/9a.md"}');export{e as data};

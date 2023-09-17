@@ -1,0 +1,1 @@
+import{_ as a,o as t,c,a as e,d as o}from"./app-5e95c839.js";const r={},s=e("h1",{id:"九年级上学期计算机资料",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#九年级上学期计算机资料","aria-hidden":"true"},"#"),o(" 九年级上学期计算机资料")],-1),_=[s];function n(d,i){return t(),c("div",null,_)}const l=a(r,[["render",n],["__file","9a.html.vue"]]);export{l as default};
