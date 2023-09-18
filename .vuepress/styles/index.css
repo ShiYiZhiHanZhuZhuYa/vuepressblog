@@ -21,6 +21,11 @@ img {
   .page-nav {
     display: none;
   }
+  .reco-waline-wrapper {
+    .wl-power {
+      display: none !important;
+    }
+  }
 }
   
 .theme-container {

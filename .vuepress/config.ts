@@ -43,6 +43,9 @@ export default defineUserConfig({
       type: 'waline',
       options: {
         serverURL: 'https://waline.alphaalist.xyz/.netlify/functions/comment',
+        locale: {
+          placeholder: '填写邮箱才会让开发者回复哦~',
+        },
         lang: 'zh-CN',
       }
     },
