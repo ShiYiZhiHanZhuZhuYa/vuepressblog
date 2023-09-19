@@ -83,6 +83,7 @@ export default defineUserConfig({
     },
     navbar: [
       { text: '博客', link: '/posts', icon: 'Compass' },
+      { text: '分类', link: '/categories/gengxingonggao/1/', icon: 'Folder' },
       {
         text: '文档',
         icon: 'Document',
@@ -135,6 +136,7 @@ export default defineUserConfig({
         ]
       },
       { text: '音乐', link: '/docs/docs/heomusic.html', icon: 'Music' },
+      { text: '日志', link: '/timeline', icon: 'Box' },
     ],
 
     algolia: {
