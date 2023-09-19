@@ -49,7 +49,7 @@ export default defineUserConfig({
         lang: 'zh-CN',
       }
     },
-
+    
     series: {
       '/docs/docs/document/': [
           {
