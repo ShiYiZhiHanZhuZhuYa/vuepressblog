@@ -24,7 +24,6 @@
     "webpack": "^5.88.2"
   },
   "devDependencies": {
-    "vuepress-plugin-comment": "^0.7.5",
     "vuepress-plugin-md-enhance": "2.0.0-beta.237",
     "vuepress-plugin-sitemap2": "^2.0.0-beta.237"
   }
