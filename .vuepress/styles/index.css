@@ -49,6 +49,9 @@ img {
     }  
     .page-container {
       padding: 0;
+      .reco-waline-wrapper {
+        display: none;
+      }
     }
     .page-info {
       display: none;
