@@ -20,7 +20,7 @@ export default defineUserConfig({
     ),
     componentsPlugin(
       {
-        components: ["Replit"]
+        components: ["Replit", "BiliBili"]
       }),
     sitemapPlugin({
         // 配置选项
