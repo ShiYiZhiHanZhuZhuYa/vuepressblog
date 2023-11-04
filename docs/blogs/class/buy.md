@@ -20,8 +20,8 @@ password:
 |    乐事薯片    |       给同学吃       |    x2    | [【乐事薯片】无限薯片 104g*3组合装](https://item.jd.com/963181.html) |    25    |            所有人            |
 |     脆脆鲨     |       给同学吃       |    x2    | [脆脆鲨](https://item.jd.com/508411.html?cu=true&utm_source=wk.idey.cn&utm_medium=tuiguang&utm_campaign=t_2024175271_&utm_term=ffbe28c002fc4e2b98a430f1eb5d7f1e) |    50    |            所有人            |
 |     棒棒糖     |      有同学要求      |    x2    | [阿尔卑斯精选多种口味硬糖棒棒糖 200g](https://item.jd.com/1083784.html?cu=true&utm_source=wk.idey.cn&utm_medium=tuiguang&utm_campaign=t_2024175271_&utm_term=24c100684e5d454da0d890134d216d78) |    20    |            所有人            |
-|     矿泉水     |       方便拿水       |    x2    | [农夫山泉饮用水 550ml 24 瓶](https://item.jd.com/848851.html?cu=true&utm_source=wk.idey.cn&utm_medium=tuiguang&utm_campaign=t_2024175271_&utm_term=701aaee3785740e7a98ddd24d691b0a6) |          |                              |
-|      总计      |                      |          |                                                              |   172    |                              |
+|     矿泉水     |       方便拿水       |    x2    | [农夫山泉饮用水 550ml 24 瓶](https://item.jd.com/848851.html?cu=true&utm_source=wk.idey.cn&utm_medium=tuiguang&utm_campaign=t_2024175271_&utm_term=701aaee3785740e7a98ddd24d691b0a6) |    68    |                              |
+|      总计      |                      |          |                                                              |   240    |                              |
 
 
 
