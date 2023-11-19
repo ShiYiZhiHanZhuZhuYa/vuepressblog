@@ -6,6 +6,7 @@ import { sitemapPlugin } from "vuepress-plugin-sitemap2";
 
 export default defineUserConfig({
   title: "Alpha Blog",
+  base: "/vuepressblog/",
   description: "为所有人服务的学习网站",
   head:[
     ["link", {rel: "icon", href: "/hero.svg"}]
