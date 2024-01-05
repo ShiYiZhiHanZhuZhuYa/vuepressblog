@@ -1,4 +1,4 @@
-name: 部署到 gitee
+name: 部署到 gitee page
 on: [push]
 jobs:
   build-and-deploy:
