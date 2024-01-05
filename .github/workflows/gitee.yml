@@ -31,7 +31,7 @@ jobs:
         # 来源仓库
         source-repo: "git@github.com:IsSmallPigPig/vuepressblog.git"
         # 目标仓库
-        destination-repo: "git@gitee.com:PigPigYa/vuepressblog.git"
+        destination-repo: "git@gitee.com:PigPigYa/PigPigYa.git"
   reload-pages:
     needs: sync
     runs-on: ubuntu-latest
