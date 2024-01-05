@@ -41,4 +41,4 @@ jobs:
         with:
           repository: linzowo/linzowo
           cookie: ${{ secrets.GITEE_COOKIE }}
-          branch: gh_pages
+          branch: gh-pages
