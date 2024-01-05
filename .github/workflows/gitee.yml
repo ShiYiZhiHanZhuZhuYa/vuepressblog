@@ -39,6 +39,6 @@ jobs:
       - name: reload
         uses: mizuka-wu/gitee-pages-action@v1.0.0
         with:
-          repository: linzowo/linzowo
+          repository: PigPigYa/PigPigYa
           cookie: ${{ secrets.GITEE_COOKIE }}
           branch: gh-pages
