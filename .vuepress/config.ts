@@ -173,7 +173,6 @@ export default defineUserConfig({
           },
         ]
       },
-      { text: '日志', link: '/timeline', icon: 'Box' },
     ],
   }),
 

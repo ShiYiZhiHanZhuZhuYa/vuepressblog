@@ -28,7 +28,6 @@ jobs:
 
       - name: 安装依赖
         run: |-
-          git config --global url."https://github.com/".insteadOf "ssh://git@github.com/" 
           yarn install --frozen-lockfile
 
       - name: 构建文档
