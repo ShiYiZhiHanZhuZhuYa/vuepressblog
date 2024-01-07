@@ -5891,7 +5891,7 @@ type-is@~1.6.18:
 
 "typed.js@git+https://github.com/mattboldt/typed.js.git":
   version "2.0.16"
-  resolved "git+ssh://git@github.com/mattboldt/typed.js.git#cd02e533c772e35ad60ee48656b33e610eadaca7"
+  resolved "git+https://git@github.com/mattboldt/typed.js.git#cd02e533c772e35ad60ee48656b33e610eadaca7"
 
 ua-parser-js@^1.0.2:
   version "1.0.35"
