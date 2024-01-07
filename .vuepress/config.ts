@@ -13,7 +13,6 @@ export default defineUserConfig({
       lineNumbers: false
     }
   },
-  
   locales: {
     "/": {
       lang: "zh-CN"
