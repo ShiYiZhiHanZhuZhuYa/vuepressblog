@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-ba905f2a","path":"/docs/document/beforeread.html","title":"开始之前","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"createdTime":1693061407000,"updatedTime":1704621359000,"contributors":[{"name":"ShiYiZhiHanZhuXhuYa","email":"3552354372@qq.com","commits":5}]},"filePathRelative":"docs/document/beforeread.md"}');export{e as data};
