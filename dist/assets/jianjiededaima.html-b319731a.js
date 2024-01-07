@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-6f960d0e","path":"/docs/about/wendangyoushi/jianjiededaima.html","title":"简洁的代码","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"createdTime":1691519081000,"updatedTime":1704612301000,"contributors":[{"name":"ShiYiZhiHanZhuXhuYa","email":"3552354372@qq.com","commits":5}]},"filePathRelative":"docs/about/文档优势/简洁的代码.md"}');export{a as data};
