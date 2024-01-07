@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "vuepress dev .",
     "start": "vuepress dev .",
-    "build": "vuepress build ."
+    "build": "vuepress build . --dest D:\\Nginx\\html"
   },
   "dependencies": {
     "vue-typed-js": "^0.1.2",

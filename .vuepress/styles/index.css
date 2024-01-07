@@ -1864,6 +1864,9 @@ section.series-group.series-item {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+<<<<<<< HEAD
+}
+=======
 }
 
 table {
@@ -1871,3 +1874,4 @@ table {
     width: 100% !important;
     border-radius: .5rem !important;
   }
+>>>>>>> bd4349293c4154e9a88297c6bfc49d2ea6f897b2
