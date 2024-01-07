@@ -180,7 +180,6 @@ export default defineUserConfig({
     mdEnhancePlugin({
       mark: true,
       footnote: true,
-      mermaid: true,
       align: true,
     }),
     componentsPlugin({
