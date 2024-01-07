@@ -89,7 +89,6 @@ export default defineUserConfig({
         appKey: "ncl8w5Ty8yZdXdvlTy19hwhx",
         recordIP: true,
         // visitor: true,
-        hideComments: true,
       }
     },
 
