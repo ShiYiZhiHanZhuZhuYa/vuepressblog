@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-461c37b4","path":"/docs/about/guanyuwendang/guanyuzuozhe.html","title":"关于作者","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"docs/about/关于文档/关于作者.md"}');export{t as data};

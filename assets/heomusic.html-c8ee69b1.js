@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-567bb82d","path":"/docs/document/heomusic.html","title":"","lang":"zh-CN","frontmatter":{"pageClass":"music-page"},"headers":[],"git":{},"filePathRelative":"docs/document/heomusic.md"}');export{e as data};

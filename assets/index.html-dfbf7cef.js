@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"","lang":"zh-CN","frontmatter":{"home":true,"modules":["Banner","Blog","MdContent","Footer"],"banner":{"heroText":"AlphaBlog","tagline":"为所有人服务的学习网站"},"blog":{"socialLinks":[{"icon":"LogoGithub","link":"https://github.com/ShiYiZhiHanZhuZhuYa"}]}},"headers":[],"git":{},"filePathRelative":"README.md"}');export{t as data};

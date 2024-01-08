@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-134e137e","path":"/docs/document/7/7a.html","title":"七年级上学期计算机资料","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"docs/document/7/7a.md"}');export{t as data};

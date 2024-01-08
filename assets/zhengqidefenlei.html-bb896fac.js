@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-957c9b62","path":"/docs/about/wendangyoushi/zhengqidefenlei.html","title":"整齐的分类","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"docs/about/文档优势/整齐的分类.md"}');export{e as data};
